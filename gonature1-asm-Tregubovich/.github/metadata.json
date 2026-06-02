@@ -1,0 +1,27 @@
+{
+  "repo": "igoroutine-courses/gonature.asm_tests",
+  "ref": "main",
+  "version_path": "version.txt",
+  "files": [
+    {
+      "from": "tests/fibonacci_test.go",
+      "to": "internal/sequence/fibonacci_test.go"
+    },
+    {
+      "from": "tests/sum_test.go",
+      "to": "internal/slices/sum_test.go"
+    },
+    {
+      "from": "tests/lowerbound_test.go",
+      "to": "internal/search/lowerbound_test.go"
+    },
+    {
+      "from": "README.md",
+      "to": "README.md"
+    },
+    {
+      "from": ".golangci.yaml",
+      "to": ".golangci.yaml"
+    }
+  ]
+}

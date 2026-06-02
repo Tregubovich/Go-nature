@@ -1,0 +1,19 @@
+{
+  "repo": "igoroutine-courses/gonature.digest_tests",
+  "ref": "main",
+  "version_path": "version.txt",
+  "files": [
+    {
+      "from": "tests/main_test.go",
+      "to": "internal/digest/main_test.go"
+    },
+    {
+      "from": "README.md",
+      "to": "README.md"
+    },
+    {
+      "from": ".golangci.yaml",
+      "to": ".golangci.yaml"
+    }
+  ]
+}
